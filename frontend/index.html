@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doe sangue! Doe vida!</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <img class="logo" src="logo.png" alt="Imagem de DOE">
+    <h2>A sua Doação importa</h2>
+    <p>Até 3 vidas com 1 doação</p>
+    <p>Mais de 38.00 doações são necessárias todos os dias</p>
+    <p>Apenas 1,9% da população brasileria, doa sangue.</p>
+    <button>Quero ajudar</button>
+  </header>
+  <section class="form hide">
+    <h2>Entre na lista de doadores</h2>
+    <form action="/" method="">
+      <input 
+        type="text" 
+        name="name"
+        placeholder="Nome Completo"
+        id="name"
+      >
+
+      <input 
+        type="text" 
+        name="email"
+        placeholder="Email"
+        id="email"
+      >
+
+      <input 
+        type="text" 
+        name="blood"
+        placeholder="Tipo sanguineo"
+        id="blood"
+      >
+
+      <button>Quero Ajudar!</button>
+    </form>
+  </section>
+  <main>
+    <h2>Últimos <span>doadores</span></h2>
+    <section class="donors">
+      <div class="donor">
+        <div class="blood">O+</div>
+        <p>Marcus</p>
+      </div>
+      <div class="donor">
+        <div class="blood">A+</div>
+        <p>Mateus</p>
+      </div>
+      <div class="donor">
+        <div class="blood">AB</div>
+        <p>Gabriel</p>
+      </div>
+      <div class="donor">
+        <div class="blood">A</div>
+        <p>Davi</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Com <i class="fas fa-loveseat "></i> qipWeb</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
